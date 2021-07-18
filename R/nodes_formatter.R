@@ -17,7 +17,10 @@ create_child_parent_viewer <- function (bn_model,delimiter="|"){
     nodes = append(nodes,node)
     parents = append(parents,paste(parent,collapse=delimiter))
   }
-  return (data.frame(nodes,parents))
+  
+  df = data.frame(nodes,parents)
+  colnames(df) = c("node","parent")
+  return (df)
 }
 
 #' A Bn Model Viewer Function

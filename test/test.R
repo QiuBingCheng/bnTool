@@ -8,6 +8,5 @@ install_github('vbjc5275/bnTool')
 
 data(coronary)
 bn_model = tabu(coronary)
-view = create_from_to_viewer(bn_model)
-
-
+create_from_to_viewer(bn_model)
+create_child_parent_viewer(bn_model)
