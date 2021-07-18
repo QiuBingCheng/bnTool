@@ -7,11 +7,10 @@
 create_from_to_viewer(bn_model)
 }
 \arguments{
-\item{bn}{model}
+\item{bn_model}{}
 }
 \value{
 from-to dataframe
-create_from_to_viewer()
 }
 \description{
 This function create a from-to dataframe of bn model nodes.

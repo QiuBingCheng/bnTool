@@ -7,11 +7,10 @@
 create_child_parent_viewer(bn_model, delimiter = "|")
 }
 \arguments{
-\item{bn}{model & delimiter}
+\item{bn_model}{& delimiter}
 }
 \value{
 child-parent dataframe
-create_child_parent_viewer()
 }
 \description{
 This function create a child-parent dataframe of bn model nodes.
