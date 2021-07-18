@@ -5,7 +5,6 @@
 #' @keywords delimiter
 #' @return child-parent dataframe
 #' @export
-#' create_child_parent_viewer()
 
 create_child_parent_viewer <- function (bn_model,delimiter="|"){
   nodes = c()
@@ -27,7 +26,6 @@ create_child_parent_viewer <- function (bn_model,delimiter="|"){
 #' @param bn_model 
 #' @return from-to dataframe
 #' @export
-#' create_from_to_viewer()
 
 create_from_to_viewer <- function (bn_model){
   num = length(bn_model$nodes)
