@@ -34,6 +34,7 @@ create_from_to_viewer <- function (bn_model){
   names(df) = names(bn_model$nodes)
   
   for (i in seq(1,num)) {
+    node = names(bn_model$nodes[i])
     parent = bn_model$nodes[i][[node]][["parents"]]
     for (par in parent) {
       df[par,node] = 1
