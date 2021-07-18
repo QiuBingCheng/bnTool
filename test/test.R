@@ -1,6 +1,14 @@
 ## Load package
 library(bnlearn)
-library(data.table)
+library(bnTool)
 
-data = data(coronary)
-bn_model = tabu(training_data, blacklist = blackList)
+library(devtools)
+install_github('vbjc5275/bnTool')
+
+install.packages("vbjc5275/bnTool")
+
+data(coronary)
+bn_model = tabu(coronary)
+view = create_from_to_viewer(bn_model)
+
+unin
