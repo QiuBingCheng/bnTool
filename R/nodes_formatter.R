@@ -1,9 +1,10 @@
 #' A Bn Model Viewer Function
 #'
 #' This function create a child-parent dataframe of bn model nodes. 
-#' @param bn model & delimiter
+#' @param bn_model & delimiter
 #' @keywords delimiter
 #' @return child-parent dataframe
+#' @export
 #' create_child_parent_viewer()
 
 create_child_parent_viewer <- function (bn_model,delimiter="|"){
@@ -23,8 +24,9 @@ create_child_parent_viewer <- function (bn_model,delimiter="|"){
 #' A Bn Model Viewer Function
 #'
 #' This function create a from-to dataframe of bn model nodes. 
-#' @param bn model 
+#' @param bn_model 
 #' @return from-to dataframe
+#' @export
 #' create_from_to_viewer()
 
 create_from_to_viewer <- function (bn_model){
