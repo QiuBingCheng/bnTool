@@ -20,7 +20,7 @@ create_from_to_viewer(bn_model)
 create_child_parent_viewer(bn_model)
 ```
 
-![view](C:\Users\Jerry\Documents\GitHub\bnTool\image\view.png)
+![view](https://github.com/vbjc5275/bnTool/blob/main/image/view.png)
 
 
 
